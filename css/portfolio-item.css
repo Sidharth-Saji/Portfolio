@@ -10,8 +10,10 @@ footer {
 	margin: 50px 0;
 }
 
-
-
-/* .course {
-  color: #fdb90d;   
-} */
+.profilepic {
+  width: 100%;          /* scales to column width */
+  max-width: 300px;     /*adjust this value as needed*/
+  height: auto;         /* preserves aspect ratio */
+  display: block;
+  margin: 0;       /* centers the image horizontally */
+}
