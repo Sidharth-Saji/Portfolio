@@ -148,3 +148,15 @@ footer {
   border-top: 1px solid #eee;
   color: #666;
 }
+
+
+#blogSearch {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input-group-addon {
+  background: #b00020;
+  color: #fff;
+  border: none;
+}

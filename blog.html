@@ -18,6 +18,22 @@
 
 <body>
 
+    <!-- BLOG SEARCH -->
+<div class="row" style="margin-bottom: 25px;">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="input-group">
+      <input type="text"
+             id="blogSearch"
+             class="form-control"
+             placeholder="Search blog posts..."
+             onkeyup="filterBlogs()">
+      <span class="input-group-addon">
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
+  </div>
+</div>
+
 <!-- NAVBAR -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
@@ -50,7 +66,7 @@
 </div>
 
 <!-- BLOG POST -->
-<section class="panel panel-default">
+<section class="panel panel-default blog-post">
   <div class="panel-body">
     <h3>
       Understanding Distributed Arithmetic
@@ -69,10 +85,10 @@
 </section>
 
 <!-- BLOG POST -->
-<section class="panel panel-default">
+<section class="panel panel-default blog-post">
   <div class="panel-body">
     <h3>
-      Yduino: Reverse Engineering Arduino  
+      Ydyuino: Reverse Engineering Arduino  
     </h3>
     <p class="text-muted">
       <i class="fas fa-calendar-alt"></i> Dec 2024 ·
@@ -86,7 +102,7 @@
 </section>
 
 <!-- BLOG POST -->
-<section class="panel panel-default">
+<section class="panel panel-default blog-post">
   <div class="panel-body">
     <h3>
       Getting Started with FPGA 
@@ -117,5 +133,6 @@
 
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/blog-search.js"></script>
 </body>
 </html>
