@@ -6,140 +6,140 @@
   <title>Sidharth Saji</title>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="icon" type="image/png" href="assets/thunder.png">
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/portfolio-item.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-  <!-- Font Awesome for icons -->
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
 </head>
+
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#top"><i class="fas fa-bolt"></i> Sidharth Saji</a>
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-bolt"></i> Sidharth Saji
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-        <li><a href="#projects"><i class="fas fa-lightbulb"></i> Projects</a></li>
-        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
-        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container-fluid" style="padding-left:50px; padding-right:50px;">
+<div class="container">
 
-  <!-- INTRO + ABOUT COMBINED -->
-  <div class="row intro-section align-items-center">
-    <div class="col-lg-8 col-md-12">
-      <h1 class="page-header">Sidharth Saji <small>UG EE, IIT Palakkad</small></h1>
-      <p>
-        I am currently pursuing my B.Tech in Electrical Engineering at IIT Palakkad. 
-        My work spans embedded hardware development, analog & mixed-signal electronics, 
-        and hardware-oriented signal processing.
-      </p>
-    </div>
-    <div class="col-lg-4 col-md-12 text-center">
-      <img src="images/Sid_pic.jpg" class="profilepic img-responsive" alt="Sidharth Saji">
+<!-- HERO / ABOUT -->
+<section id="about" class="panel panel-default intro-panel">
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="name-title">
+          Sidharth Saji
+          <small>UG EE, IIT Palakkad</small>
+        </h1>
+        <p class="lead">
+          I am currently pursuing my B.Tech in Electrical Engineering at IIT Palakkad.
+          My interests include embedded hardware, analog & mixed-signal electronics,
+          and hardware-oriented signal processing.
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/Sid_pic.jpg" class="img-responsive profilepic" alt="Sidharth Saji">
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- EXPERIENCE -->
-  <section id="experience">
-    <h3 class="page-header"><i class="fas fa-briefcase"></i> Experience</h3>
-    <ul>
-      <li>
-        <strong>Analog Test Intern – Texas Instruments</strong> (May–July 2025)
-        <ul>
-          <li>Final testing of high-voltage supervisor ICs</li>
-          <li>Planned final-test solutions for isolated HV devices</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Project Intern – Bumblebee Instruments Pvt. Ltd.</strong> (May–July 2024)
-        <ul>
-          <li>Redesigned microcontroller-based student oscilloscope</li>
-          <li>PCB design and hardware prototyping</li>
-          <li>GUI debugging using VB .NET</li>
-        </ul>
-      </li>
+<!-- EXPERIENCE -->
+<section id="experience" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="fas fa-briefcase"></i> Experience</h3>
+  </div>
+  <div class="panel-body">
+    <h4>Analog Test Intern – Texas Instruments <span class="duration">(May–July 2025)</span></h4>
+    <ul class="list-group">
+      <li class="list-group-item">Final testing of high-voltage supervisor ICs</li>
+      <li class="list-group-item">Planned final-test solutions for isolated HV devices</li>
     </ul>
-  </section>
 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <h3 class="page-header"><i class="fas fa-lightbulb"></i> Projects</h3>
-    <ul>
-      <li>
+    <h4>Project Intern – Bumblebee Instruments Pvt. Ltd. <span class="duration">(May–July 2024)</span></h4>
+    <ul class="list-group">
+      <li class="list-group-item">Redesigned microcontroller-based student oscilloscope</li>
+      <li class="list-group-item">PCB design and hardware prototyping</li>
+      <li class="list-group-item">GUI debugging using VB .NET</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="fas fa-lightbulb"></i> Projects</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <li class="list-group-item">
         <strong>Linear Optical Sensor</strong> – CMOS image sensor based Moiré displacement system
-        [<a href="https://drive.google.com/drive/u/0/folders/1LUyhbSqUqyQ94buNl36Djat22JEkbsjO" target="_blank">Link</a>]
+        <a class="btn btn-danger btn-xs pull-right" href="https://drive.google.com/drive/u/0/folders/1LUyhbSqUqyQ94buNl36Djat22JEkbsjO" target="_blank">View</a>
       </li>
-      <li>
-        <strong>DCT using Distributed Arithmetic</strong> – Verilog implementation for VLSI architectures
-        [<a href="https://drive.google.com/drive/u/0/folders/1h79aroDK-AXjmbpxOR2fjEwdkA6qjI5t" target="_blank">Link</a>]
+      <li class="list-group-item">
+        <strong>DCT using Distributed Arithmetic</strong> – Verilog VLSI architectures
+        <a class="btn btn-danger btn-xs pull-right" href="https://drive.google.com/drive/u/0/folders/1h79aroDK-AXjmbpxOR2fjEwdkA6qjI5t" target="_blank">View</a>
       </li>
-      <li>
-        <strong>FFT on FPGA</strong> – 16-point FFT verified using ECG signal
-        [<a href="https://drive.google.com/drive/folders/1bJdmla3TomzdFokcrp2IvwALYhm1SgI_" target="_blank">Link</a>]
+      <li class="list-group-item">
+        <strong>FFT on FPGA</strong> – 16-point FFT verified using ECG signals
+        <a class="btn btn-danger btn-xs pull-right" href="https://drive.google.com/drive/folders/1bJdmla3TomzdFokcrp2IvwALYhm1SgI_" target="_blank">View</a>
       </li>
     </ul>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <h3 class="page-header"><i class="fas fa-tools"></i> Technical Skills</h3>
-    <ul>
-      <li><strong>Programming:</strong> C, C++, Python, Verilog, Embedded C</li>
-      <li><strong>Tools:</strong> MATLAB, LTspice, KiCad</li>
-      <li><strong>Hardware:</strong> Arduino, STM32, ESP32, TMS320 DSPs</li>
-      <li><strong>Other:</strong> PCB Design, LaTeX Documentation</li>
-    </ul>
-  </section>
-
-<!-- CONTACT SECTION (Minimal, Scrollable) -->
-<div id="contact" class="text-center my-5">
-  <div class="d-flex justify-content-center flex-wrap gap-3">
-    <!-- Email Icon -->
-    <a href="mailto:sidharthsaji2003@gmail.com" 
-       style="font-size:25px; margin:0 10px;" 
-       target="_blank" title="Email">
-      <i class="fas fa-envelope"></i>
-    </a>
-
-    <!-- GitHub Icon -->
-    <a href="https://github.com/Sidharth-Saji" 
-       style="font-size:25px; margin:0 10px;" 
-       target="_blank" title="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
-
-    <!-- LinkedIn Icon -->
-    <a href="https://www.linkedin.com/in/sidharth-saji-0ab85623b/" 
-       style="font-size:25px; margin:0 10px;" 
-       target="_blank" title="LinkedIn">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
   </div>
-</div>
+</section>
 
+<!-- SKILLS -->
+<section id="skills" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><i class="fas fa-tools"></i> Technical Skills</h3>
+  </div>
+  <div class="panel-body">
+    <span class="label label-danger">C</span>
+    <span class="label label-danger">C++</span>
+    <span class="label label-danger">Python</span>
+    <span class="label label-danger">Verilog</span>
+    <span class="label label-danger">Embedded C</span>
+    <span class="label label-danger">MATLAB</span>
+    <span class="label label-danger">LTspice</span>
+    <span class="label label-danger">KiCad</span>
+    <span class="label label-danger">STM32</span>
+    <span class="label label-danger">FPGA</span>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Sidharth Saji</p>
-  </footer>
+<!-- CONTACT -->
+<section id="contact" class="text-center">
+  <a href="mailto:sidharthsaji2003@gmail.com"><i class="fas fa-envelope"></i></a>
+  <a href="https://github.com/Sidharth-Saji" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/sidharth-saji-0ab85623b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sidharth Saji</p>
+</footer>
 
 </div>
 
